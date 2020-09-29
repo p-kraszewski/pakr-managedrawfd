@@ -1,0 +1,15 @@
+[package]
+name = "pakr-managedrawfd"
+version = "1.0.0"
+authors = ["Paweł Kraszewski <pawel@kraszewscy.net>"]
+edition = "2018"
+description = "A Trait and two Impls dealing with auto-closing RawFd file handles with a sensible Clone trait implementations."
+keywords = ["file handle", "managed"]
+categories = ["os", "filesystem"]
+license = "BSD-2-Clause"
+repository = "https://github.com/p-kraszewski/pakr-managedrawfd"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "^0.2"
